@@ -10,19 +10,19 @@ contract Variables {
     address public myAddress;
     string public myString;
 
-    function setMyUint(uint256 _myUint) public {
-        myUint = _myUint;
+    function setMyUint(uint256 _myUint) public returns (uint256) {
+        return myUint = _myUint;
     }
 
-    function setMyBool(bool _myBool) public {
-        myBool = _myBool;
+    function setMyBool(bool _myBool) public returns (bool) {
+        return myBool = _myBool;
     }
 
-    function setMyAddress(address _myAddress) public {
-        myAddress = _myAddress;
+    function setMyAddress(address _myAddress) public returns (address) {
+       return myAddress = _myAddress;
     }
 
-    function setMyString(string memory _myString) public {
-        myString = _myString;
+    function setMyString(string memory _myString) public returns (string memory) {
+       return myString = _myString;
     }
 }
