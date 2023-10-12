@@ -1,0 +1,97 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "build_infos": "out/build-info",
+    "sources": "contracts",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "contracts/EtherValueConverter.sol": {
+      "lastModificationDate": 1697125430312,
+      "contentHash": "165f8ddbcc42b93c3edbc5109cfe78b9",
+      "sourceName": "contracts/EtherValueConverter.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "EtherValueConverter": {
+          "0.8.21+commit.d9974bed.Linux.gcc": "EtherValueConverter.sol/EtherValueConverter.json"
+        }
+      }
+    },
+    "contracts/variables.sol": {
+      "lastModificationDate": 1697123889755,
+      "contentHash": "b898870235b213038cc9bd23b900bf3f",
+      "sourceName": "contracts/variables.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Variables": {
+          "0.8.21+commit.d9974bed.Linux.gcc": "variables.sol/Variables.json"
+        }
+      }
+    }
+  }
+}
